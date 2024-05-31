@@ -1,0 +1,19 @@
+{
+  "name": "vumexgo",
+  "version": "1.0.0",
+  "description": "A simple stack to get a prototype app runing with Vue, Express and Mongodb",
+  "scripts": {
+    "local": "docker-compose up",
+    "serve": "npm --prefix ./frontend run serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/klapro/vumexgo.git"
+  },
+  "author": "klapro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/klapro/vumexgo/issues"
+  },
+  "homepage": "https://github.com/klapro/vumexgo#readme"
+}
