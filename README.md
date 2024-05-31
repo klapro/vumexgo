@@ -7,3 +7,11 @@ You can run the backend with the db mountpoint with ```docker-compose up```.
 A default port to ``:3000`` will be opened for the API. Any changes to the api will be built with esbuild on start.
 
 To run your frontend just type ```npm run serve``` in your terminal. Make call to your backend to the affiliated port.
+
+## Basics
+Run the api/database locally with ```npm run local```
+Launch your frontend vue app with ```npm run serve```
+
+
+
+
