@@ -1,10 +1,11 @@
 FROM node:20-alpine
 
-WORKDIR /api
-COPY package*.json ./
-RUN npm install
+WORKDIR /app
 COPY . .
+
+RUN npm install -g nodemon \
+    && npm install -g ts-node 
 
 EXPOSE 3000
 
-CMD ["npm", "run", "start"]
+CMD ["npm", "run", "dev"]
