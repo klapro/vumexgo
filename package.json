@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "A simple stack to get a prototype app runing with Vue, Express and Mongodb",
   "scripts": {
-    "local": "docker-compose up",
+    "start:api": "cd api && docker-compose up",
+    "build:api": "cd api && docker-compose build",
+    "stop:api": "cd api && docker-compose down",
     "serve": "npm --prefix ./frontend run serve"
   },
   "repository": {
@@ -15,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/klapro/vumexgo/issues"
   },
-  "homepage": "https://github.com/klapro/vumexgo#readme"
+  "homepage": "https://github.com/klapro/vumexgo#readme",
+  "devDependencies": {
+    "esbuild": "^0.21.4"
+  }
 }
